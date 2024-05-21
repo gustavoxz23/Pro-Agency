@@ -1,0 +1,39 @@
+
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #545454;
+  border-radius: 50px;
+}
+
+::-webkit-scrollbar-track {
+  background: #111111;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #fff;
+  font-family: "Inter", arial;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
