@@ -2,6 +2,7 @@ import style from "../conteudo1/conteudo1.module.css";
 import imagem1 from "../../assets/img/hero.svg";
 import miniimg1 from "../../assets/img/logo-1.svg";
 import miniimg2 from "../../assets/img/logo-2.svg"
+import miniimg3 from "../../assets/img/logo-3.svg"
 
 const Conteudo1 = () => {
   return (
@@ -19,13 +20,16 @@ const Conteudo1 = () => {
         <div className={style.imagem1}>
           <img src={imagem1} alt="" />
         </div>
-        <div className={style.conteudo1fim}>
+      </div>
+      <div className={style.final}>
+      <div className={style.conteudo1fim}>
           <h2>Nossos clientes</h2>
           <p>Temos trabalhado com alguns clientes da Fortune 500+</p>
         </div>
         <div className={style.miniimgs}>
           <img src={miniimg1} alt="" />
           <img src={miniimg2} alt="" />
+          <img src={miniimg3} alt="" />
         </div>
       </div>
     </section>
