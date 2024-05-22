@@ -1,0 +1,40 @@
+.txt{
+    margin: 50px;
+    padding: 30px;
+    font-size: 30px;
+}
+
+.H21{
+    
+    color: #4D4D4D;
+}
+
+.H22{
+    color: #4CAF4F;
+}
+
+p{
+    padding: 15px;
+    font-size: 20px;
+    color: #4D4D4D;
+}
+
+.buttonR{
+    padding: 10px 10px;
+    width: 130px;
+    font-weight: 700;
+    background-color: #4CAF4F;
+    border: 2px solid #4CAF4F;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.wrapper{
+    display: flex;
+}
+
+.conteudo1fim {
+    margin: 50px;
+    padding: 30px;
+    font-size: 30px;
+}
